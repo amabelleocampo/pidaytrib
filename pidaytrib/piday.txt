@@ -1,0 +1,8 @@
+live_loop :choral_drone do
+  sample :ambi_choir, rate: 0.314
+  sleep 3.14
+  live_loop :amen_break do
+    use_bpm 45
+    sample :loop_amen, beat_stretch: 3.14
+    sleep 3.14
+  end
